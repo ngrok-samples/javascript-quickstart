@@ -1,0 +1,17 @@
+{
+  "name": "ngrok-javascript-quickstart",
+  "version": "1.0.0",
+  "description": "A minimal Node.js app demonstrating the ngrok JavaScript SDK",
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js",
+    "ngrok": "node example.js"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "keywords": ["ngrok", "nodejs", "quickstart"],
+  "author": "",
+  "license": "MIT"
+}
